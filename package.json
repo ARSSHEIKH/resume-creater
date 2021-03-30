@@ -2,9 +2,9 @@
   "name": "resume-creator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "web/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node web/index.js"
   },
   "author": "arssheikh",
   "license": "ISC",
