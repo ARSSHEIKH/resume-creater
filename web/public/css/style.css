@@ -1,0 +1,60 @@
+.ThemeChanger{
+    float: right;
+}
+#labelThemeToggler{
+    font-weight: bold;
+}
+.btn-signup{
+    color: #fff;
+    background-color: rgb(255, 123, 0);
+    font-weight: bold;
+    
+}
+.btn-signup:hover{
+    color: rgb(255, 123, 0); 
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 123, 0);
+}
+.dv-tabs{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 50%;
+}
+.dvOne-tab, .dvTwo-tab, .dvThree-tab{
+    background-color: #fff;
+    border: 3px solid rgb(203, 209, 203);
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.dvOne-tab:hover, .dvTwo-tab:hover, .dvThree-tab:hover{
+    background-color:  rgb(255, 123, 0);
+    border: none
+    
+}
+.tabs-strings{
+    text-align: center; margin-top: 12px;
+}
+
+.line-tabs{
+    width: 20px;
+    height: 10px;
+    background-color: rgb(235, 243, 235);
+    margin-top: 30px;
+}
+.form-group{
+    margin-top: 10px;
+}
+.input{
+    width: 90%;
+    height: 40px;
+    
+}
+input[type=text]:focus{
+    border: blue;
+}
