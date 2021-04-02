@@ -50,25 +50,57 @@
 .form-group{
     margin-top: 10px;
 }
-.input{
-    width: 90%;
-    height: 40px;
-}
 .GrpSocialLinks{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.SocialLink{
-    width: 80%;
+.form2-inputs{
+    width: 90%;
 }
-.inputfieldsExtraOrdinary{
-    width: 50%;
+.input{
+    width: 90%;
+    height: 40px;
 }
 input[type=text]:focus{
     border: blue;
 }
+#optCountries{
+    
+    width: 45%;
+    height: 40px;
+
+}
 #optCountries option {
-        font-size: 14px;
+    font-size: 14px;
+}
+.social-icon-svg{
+    color: rgb(120, 165, 218);
+}
+#textareaSummary{
+    height: 10rem;
+}
+
+
+
+@media (max-width:992px){
+    .form2-inputs{
+        width: 85%
+    }
+}
+@media (max-width:770px){
+    .form2-inputs{
+        width: 80%
+    }
+}
+@media (max-width:420px){
+    .form2-inputs{
+        max-width: 70%
+    }
+}
+@media (max-width:290px){
+    .form2-inputs{
+        max-width: 60%
+    }
 }
