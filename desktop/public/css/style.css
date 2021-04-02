@@ -8,7 +8,7 @@
     color: #fff;
     background-color: rgb(255, 123, 0);
     font-weight: bold;
-    
+    border: transparent;
 }
 .btn-signup:hover{
     color: rgb(255, 123, 0); 
@@ -38,7 +38,7 @@
     
 }
 .tabs-strings{
-    text-align: center; margin-top: 12px;
+    text-align: center;     
 }
 
 .line-tabs{
@@ -53,8 +53,22 @@
 .input{
     width: 90%;
     height: 40px;
-    
+}
+.GrpSocialLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.SocialLink{
+    width: 80%;
+}
+.inputfieldsExtraOrdinary{
+    width: 50%;
 }
 input[type=text]:focus{
     border: blue;
+}
+#optCountries option {
+        font-size: 14px;
 }
