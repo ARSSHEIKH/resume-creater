@@ -1,4 +1,7 @@
 
+window.location="/login.html";
+
+
 const profileForm_content1 = document.querySelector(".profileForm-form1")
 const profileForm_content2 = document.querySelector(".profileForm-form2")
 const profileForm_content3 = document.querySelector(".profileForm-form3")

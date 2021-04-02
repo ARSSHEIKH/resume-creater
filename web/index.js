@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-const staticPath = path.join(__dirname, "./public")
+const staticPath = path.join(__dirname, "/public/")
 
 function getiingHttpServer() {
     app.use(express.static(staticPath));
@@ -19,6 +19,6 @@ function getiingHttpServer() {
 
     app.listen(PORT, () => {
         console.log(`Running on http://localhost:${PORT}`)
-    })
+    }) 
 }
 getiingHttpServer();
